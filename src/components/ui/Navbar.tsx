@@ -41,9 +41,9 @@ const Navbar = () => {
       >
         Get a Free Qoute
       </Button>
-      <div className="md:hidden">
+      <div className="md:hidden ">
         <Sheet>
-          <SheetTrigger className="bg-black text-white">
+          <SheetTrigger >
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Navbar = () => {
             <SheetHeader>
               <SheetDescription>
                 <div>
-                  <ul className="flex flex-col items-start gap-4 py-5 text-lg uppercase">
+                  <ul className="flex flex-col items-start gap-4 py-5 text-lg uppercase ">
                     <li>Company</li>
                     <li>Services</li>
                     <li>Portfolio</li>
