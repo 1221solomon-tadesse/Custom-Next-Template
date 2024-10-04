@@ -41,7 +41,6 @@ const Navbar = () => {
       >
         Get a Free Qoute
       </Button>
-
       <div className="md:hidden">
         <Sheet>
           <SheetTrigger className="bg-black text-white">
