@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed z-40 mt-0 flex w-full justify-between bg-black px-[72px] py-[36px] max-md:pl-5">
       <h1 className="ml-10 text-2xl font-bold text-white">WebTech</h1>
-      <ul className="justify-center gap-x-10 text-[#FFFFFF] max-md:hidden lg:flex">
+      <ul className="text-text-lg justify-center gap-x-10 text-[#FFFFFF] max-md:hidden lg:flex">
         <li className="uppercase">
           <a href="/)" className="transition-all hover:text-blue-600">
             Company
@@ -41,9 +41,9 @@ const Navbar = () => {
       >
         Get a Free Qoute
       </Button>
-      <div className="md:hidden ">
+      <div className="md:hidden">
         <Sheet>
-          <SheetTrigger >
+          <SheetTrigger>
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Navbar = () => {
             <SheetHeader>
               <SheetDescription>
                 <div>
-                  <ul className="flex flex-col items-start gap-4 py-5 text-lg uppercase ">
+                  <ul className="flex flex-col items-start gap-4 py-5 text-lg uppercase">
                     <li>Company</li>
                     <li>Services</li>
                     <li>Portfolio</li>
