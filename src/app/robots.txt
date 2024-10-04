@@ -1,0 +1,15 @@
+User-agent: *
+
+# Allowed Area
+Allow: /
+
+# Restricted Area
+Disallow: /private/
+
+# Waiting time in second between each request to the website.
+Crawl-delay: 10
+
+# Restricted File types
+
+# Sitemap
+Sitemap: https://ras-tech.com/sitemap.xml
