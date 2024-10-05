@@ -6,6 +6,10 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { X } from "lucide-react"
 
 import { cn } from "@/lib/utils"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 399a489e14e4c15593bcd842dcfa2f3436126492
 const Sheet = SheetPrimitive.Root
 
 const SheetTrigger = SheetPrimitive.Trigger
