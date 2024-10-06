@@ -1,3 +1,4 @@
+//NAvbar
 import Navbar from '@/components/presentation/Navbar';
 export default function Home() {
   return (
